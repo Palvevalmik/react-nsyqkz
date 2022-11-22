@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import './common.css'
 
 class Person extends Component {
   constructor(props) {
@@ -25,7 +26,7 @@ class Person extends Component {
             Dear {this.state.name}, {this.state.age} years, Welcome to pune!
           </i>
           <br />
-          <button onClick={() => this.nameChangeHandler()}>Click me!</button>
+          <button onClick={() => this.nameChangeHandler()}>Click me! to change text</button>
         </h1>
       </div>
     );
